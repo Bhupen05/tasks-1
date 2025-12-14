@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+img{
+    width:50%;
+    height: 50%;
+    border-radius: 20px;
+}
+
+nav{
+    width: 100%;
+    height: 30px;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a{
+    color: aquamarine;
+    text-decoration: none;
+
+}
