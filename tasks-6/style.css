@@ -1,0 +1,30 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body{
+width: 100%;
+height: 100%;
+scrollbar-width: none;
+}
+.box{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.images{
+    column-width: 150px;
+}
+img{
+    width: 100%;
+    margin: 3px 0px;
+    border-radius: 30px;
+}
+@media(min-width:800px){
+    .images{
+        column-width: 250px;
+    }
+}

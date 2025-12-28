@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding:10px 20px;
+    border-radius: 20px;
+    border: none;
+    background: rgb(126, 126, 231);
+    color: antiquewhite;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
